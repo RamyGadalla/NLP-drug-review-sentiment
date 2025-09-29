@@ -1,0 +1,7 @@
+# Data: ignore all contents but keep the folder
+data/**
+!data/.gitkeep
+
+# Artifacts: ignore models/metrics but keep the folder
+artifacts/**
+!artifacts/.gitkeep

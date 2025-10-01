@@ -1,4 +1,4 @@
-# NLP: Drug Review Sentiment (under development)
+# Natural Language Processing: Drug Review Sentiment 
 
 Predict **positive vs negative** sentiment from **patient free‑text** medication reviews (Drugs.com). Labels are derived from the 1–10 numeric ratings; models use only the review text.
 

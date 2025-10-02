@@ -129,12 +129,10 @@ drug-review-sentiment/
 
 ---
 
-
 ## Limitations
 
-* Ratings are self‑reported and skew positive; not clinical ground truth.
+* Ratings are self‑reported and skew positive.
 * Label mapping is a design choice and affects class balance.
-
 
 ---
 

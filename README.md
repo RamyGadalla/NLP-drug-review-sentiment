@@ -38,20 +38,19 @@ unzip -o drugsCom_raw.zip
 
 ```
 
-
-Results
+### Results
 
 Model
 
 Accuracy
 
-Macro‑F1
+Macro-F1
 
 F1 (neg)
 
 F1 (pos)
 
-TF‑IDF + Logistic Reg
+TF-IDF + Logistic Reg
 
 0.8642
 
@@ -61,7 +60,7 @@ TF‑IDF + Logistic Reg
 
 0.8850
 
-DistilBERT (fine‑tuned)
+DistilBERT (fine-tuned)
 
 0.9055
 
@@ -71,14 +70,9 @@ DistilBERT (fine‑tuned)
 
 0.9221
 
-Figures:
-
-reports/figures/tfidf_confusion_matrix.png
+Figures (paths):
 
 reports/figures/distilbert_confusion_matrix.png
 
-Notes: DistilBERT was trained for 2 epochs, max_length=256, batch size=16, mixed precision on CUDA; test metrics reported above are from the held‑out test split.
-
-
-
+reports/figures/tfidf_confusion_matrix.png
 

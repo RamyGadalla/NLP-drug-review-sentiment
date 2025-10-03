@@ -1,0 +1,18 @@
+# Paths
+data_dir: data
+processed_dir: data/processed
+artifacts_dir: artifacts
+figures_dir: reports/figures
+py_dir: py
+
+
+# Which models to build when you run `snakemake all`
+run:
+tfidf: true
+distilbert: true
+
+
+# Optional GPU selection for the transformer rule
+# (empty = leave as-is; "0" = use GPU 0, "1" = GPU 1, ...)
+distilbert:
+cuda_visible_devices: "0"

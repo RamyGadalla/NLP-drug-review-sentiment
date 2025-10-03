@@ -129,6 +129,24 @@ drug-review-sentiment/
 
 ---
 
+
+
+## Snakemake (optional) — Run the whole pipeline
+```
+
+# Install Snakemake 
+mamba install -c conda-forge snakemake  # or: conda install -c conda-forge snakemake
+
+# Dry run 
+snakemake -n
+
+# Build everything (downloads, cleans, labels, trains both models)
+snakemake -j 4
+
+# Build a single target, e.g., just transformer
+snakemake -j 2 distilbert_train
+```
+
 ## Limitations
 
 * Ratings are self‑reported and skew positive.
